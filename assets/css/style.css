@@ -102,7 +102,32 @@ main {
     background: url("../images/hero-image.webp") no-repeat center center/cover;
     position: relative;
 }
+/* reson section */
+#reasons {
+    width: 90%;
+    margin: 20px auto;
+}
 
+#reasons h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 280%;
+}
+
+#benefits-physical>div,
+#benefits-mental>div {
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+#benefits p {
+    padding: 0 20px;
+}
+
+hr {
+    border-top: 1px solid #3a3a3a;
+    margin: 5px 0;
+}
 #cover-text {
     /* final rgba value sets opacity so it is semi-transparant */
     background-color: rgba(241, 109, 107, .7);
