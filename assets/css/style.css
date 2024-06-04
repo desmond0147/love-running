@@ -218,6 +218,15 @@ line-height: 1em;
     color: #3a3a3a;
 }
 
+/* Media query:larger 0r landscape phones (576px and up) */
+@media screen and (min-width: 576px) {
+    #photos {
+        column-count: 2;
+        column-gap: 0;
+    }
+}
+
+
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
     /* Header */
@@ -270,6 +279,10 @@ width: 75%;
     text-align: end;
     align-self: flex-end;
 }
+/* gallery */
+#photos {
+    column-count: 3;
+}
 }
 
 /* Media query: tablets and larger (768px and up) */
@@ -296,5 +309,9 @@ width: 75%;
 }
 #benefits-physical > div {
     align-self: flex-end;
+}
+/* gallery */
+#photos {
+    column-count: 4;
 }
 }
