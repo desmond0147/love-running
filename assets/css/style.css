@@ -4,6 +4,7 @@ padding : 0;
 margin : 0;
 box-sizing : border-box;
 }
+/* general style */
 body {
 min-height : 100vh;
 display : flex;
@@ -64,12 +65,14 @@ display : none;
 .nav-toggle-lable {
 font-size : 2rem;
 }
+/* main content */
 main {
 flex : 1 0 auto;
 margin-top : 47px;
 display : flex;
 flex-direction : column;
 }
+/* sinup form */
 #signup {
 background-image : url("../images/signup-image.webp");
 background-size : cover;
@@ -179,6 +182,7 @@ padding-left : 10px;
 #cover-text > h2, #cover-text > h3 {
 color : #ffffff;
 }
+/* gallery page */
 #photos img {
 width : 100%;
 line-height : 1em;
@@ -186,6 +190,7 @@ line-height : 1em;
 #photos {
 line-height : 0;
 }
+/* footer */
 #social-networks {
 text-align : center;
 padding : 20px 0;
@@ -198,6 +203,7 @@ font-size : 160%;
 padding : 5%;
 color : #3a3a3a;
 }
+/* min screen */
 @media screen and (min-width: 576px) {
 #photos {
 column-count : 2;
@@ -249,6 +255,7 @@ align-self : flex-end;
 column-count : 3;
 }
 }
+/* large screen */
 @media screen and (min-width: 768px) {
 nav {
 display : block;
@@ -271,6 +278,7 @@ font-size : 280%;
 line-height : 75px;
 margin : 0 0.5rem;
 }
+/* main content */
 main {
 margin-top : 79px;
 display : flex;
