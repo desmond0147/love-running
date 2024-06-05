@@ -277,14 +277,20 @@ display : flex;
 flex-direction : column;
 }
 #signup {
-background-position : center;
-position : relative;
+    background-image: url("../images/signup-image.webp");
+    background-size: cover;
+    background-position: 75%;
+    padding: 20px 10% 100px 10%; /* Increase bottom padding */
+    flex-grow: 1;
+    position: relative;
 }
 #signup-form {
-max-width : 400px;
-position : absolute;
-left : 10%;
-top : 150px;
+    color: #ffffff;
+    background-color: rgba(60, 60, 60, 0.6);
+    padding: 30px;
+    max-width: 400px;
+    margin: auto; /* Center the form horizontally */
+    margin-top: 50px; /* Adjust top margin as needed */
 }
 .text-input:hover {
 border-color : #f16c6b;
